@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-15T18:15:47 IST" name="Surefire suite" finished-at="2024-11-15T18:16:06 IST" duration-ms="19034">
+    <groups>
+      <group name="Error">
+        <method signature="ErrorValidationTest.SubmitOrder()[pri:0, instance:Ashutosh.Selenium_Framework1.ErrorValidationTest@1fe20588]" name="SubmitOrder" class="Ashutosh.Selenium_Framework1.ErrorValidationTest"/>
+      </group> <!-- Error -->
+    </groups>
+    <test started-at="2024-11-15T18:15:47 IST" name="Surefire test" finished-at="2024-11-15T18:16:06 IST" duration-ms="19034">
+      <class name="Ashutosh.Selenium_Framework1.ErrorValidationTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Ashutosh.Selenium_Framework1.ErrorValidationTest@1fe20588]" started-at="2024-11-15T18:15:47 IST" name="LaunchApplication" finished-at="2024-11-15T18:15:50 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder()[pri:0, instance:Ashutosh.Selenium_Framework1.ErrorValidationTest@1fe20588]" started-at="2024-11-15T18:15:50 IST" name="SubmitOrder" finished-at="2024-11-15T18:15:51 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Ashutosh.Selenium_Framework1.ErrorValidationTest@1fe20588]" started-at="2024-11-15T18:15:51 IST" name="CloseBrowser" finished-at="2024-11-15T18:15:51 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Ashutosh.Selenium_Framework1.ErrorValidationTest -->
+      <class name="Ashutosh.Selenium_Framework1.SubmitOrderTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:15:51 IST" name="LaunchApplication" finished-at="2024-11-15T18:15:53 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:15:53 IST" name="SubmitOrder" finished-at="2024-11-15T18:15:57 IST" duration-ms="4200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:15:57 IST" name="CloseBrowser" finished-at="2024-11-15T18:15:57 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:15:57 IST" name="LaunchApplication" finished-at="2024-11-15T18:16:00 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="orderVerifyinOrderlistTest()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:16:00 IST" name="orderVerifyinOrderlistTest" finished-at="2024-11-15T18:16:00 IST" depends-on-methods="Ashutosh.Selenium_Framework1.SubmitOrderTest.SubmitOrder" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerifyinOrderlistTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderTest@670002]" started-at="2024-11-15T18:16:00 IST" name="CloseBrowser" finished-at="2024-11-15T18:16:00 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Ashutosh.Selenium_Framework1.SubmitOrderTest -->
+      <class name="Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest@1f0f1111]" started-at="2024-11-15T18:16:00 IST" name="LaunchApplication" finished-at="2024-11-15T18:16:02 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest@1f0f1111]" started-at="2024-11-15T18:16:02 IST" name="SubmitOrder" finished-at="2024-11-15T18:16:06 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest@1f0f1111]" started-at="2024-11-15T18:16:06 IST" name="CloseBrowser" finished-at="2024-11-15T18:16:06 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

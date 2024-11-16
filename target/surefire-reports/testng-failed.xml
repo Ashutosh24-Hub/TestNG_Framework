@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Ashutosh.Selenium_Framework1.SubmitOrderTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="orderVerifyinOrderlistTest"/>
+          <include name="SubmitOrder"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- Ashutosh.Selenium_Framework1.SubmitOrderTest -->
+      <class name="Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest">
+        <methods>
+          <include name="SubmitOrder"/>
+          <include name="CloseBrowser"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- Ashutosh.Selenium_Framework1.SubmitOrderValidationinMycarTest -->
+      <class name="Ashutosh.Selenium_Framework1.ErrorValidationTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SubmitOrder"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- Ashutosh.Selenium_Framework1.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
